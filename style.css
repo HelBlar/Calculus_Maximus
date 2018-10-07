@@ -1,0 +1,45 @@
+body{
+  text-align: center;
+  font-family: 'Fredericka the Great', cursive;
+  
+}
+#myform{
+  width:400px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top: 30px;
+  padding: 5px;
+  border:solid 4px;
+  border-radius:15px;
+  background: grey;
+  opacity:0.9;
+}
+#myform #display{
+  margin-top:10px;
+  margin-bottom: 10px;
+  width: 360px;
+  border:1;
+  border-radius: 5px;
+  background: #FFFFCC;
+  color:black;
+  text-align:center;
+  cursor: auto;
+  
+  
+  
+  }
+  input{
+    width: 75px;
+    height: 50px;
+    font-size: 35px;
+    border-radius: 10px;
+    margin:10px;
+    background-color: black;
+    color: white;
+    border-style: none;
+    cursor: pointer;
+    
+  }
+  .ope{
+    background-color: #CC0033 ;
+  }

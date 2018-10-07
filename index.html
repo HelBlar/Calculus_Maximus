@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta lang="pl">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculus Maximus</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet">
+  </head>
+
+
+  <body>
+    <h1>Calculus Maximus</h1>
+    <hr>
+    <form id="myform" name="calc">
+    <input id="display" name"display"></br>
+    <hr>
+    <input type="button" class="ope" value="C" onclick="calc.display.value = ''">
+    <input type="button" value="1" onclick="calc.display.value+='1'">
+    <input type="button" value="2" onclick="calc.display.value+='2'">
+    <input type="button" value="3" onclick="calc.display.value+='3'">
+    <input type="button" value="4" onclick="calc.display.value+='4'">
+    <input type="button" value="5" onclick="calc.display.value+='5'">
+    <input type="button" value="6" onclick="calc.display.value+='6'">
+    <input type="button" value="7" onclick="calc.display.value+='7'">
+    <input type="button" value="8" onclick="calc.display.value+='8'">
+    <input type="button" value="9" onclick="calc.display.value+='9'">
+    <input type="button" value="0" onclick="calc.display.value+='0'">
+    <input type="button" class="ope" value="+" onclick="calc.display.value+='+'">
+    <input type="button" class="ope" value="-" onclick="calc.display.value+='-'">
+    <input type="button" class="ope" value="x" onclick="calc.display.value+='*'">    
+    <input type="button" class="ope" value="&#247" onclick="calc.display.value+='/'">
+    <input type="button" class="ope" value="=" onclick="calc.display.value=eval(calc.display.value)">
+    </form>
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
